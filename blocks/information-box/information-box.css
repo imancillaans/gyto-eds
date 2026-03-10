@@ -1,0 +1,63 @@
+/* stylelint-disable custom-property-pattern */
+
+.information-box-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.information-box {
+  width: 100%;
+}
+
+.information-box-left {
+  border-radius: 30px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  background-color: var(--grey-grey_200);
+  padding: 40px;
+  align-items: center;
+}
+
+.information-box-main {
+  flex: 1;
+}
+
+.information-box-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.information-box-card {
+  background: var(--grey-white);
+  border-radius: 30px;
+  padding: 40px;
+}
+
+.information-box-right {
+  border-radius: 16px;
+  width: 300px;
+  display: flex;             /* turn into flex container */
+  flex-direction: column;    /* stack children vertically */
+  justify-content: center;   /* vertical centering */
+  padding: 40px;
+  background: var(--grey-white);
+}
+
+@media (width <= 900px) {
+  .information-box-wrapper {
+    flex-direction: column;
+  }
+
+  .information-box-left {
+    flex-direction: column;
+  }
+
+  .information-box-right {
+    width: 100%;
+  }
+}
+/* stylelint-enable custom-property-pattern */

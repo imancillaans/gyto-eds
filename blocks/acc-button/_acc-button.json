@@ -1,0 +1,90 @@
+{
+  "definitions": [
+    {
+      "title": "ACC Button",
+      "id": "acc-button",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Acc Button",
+              "model": "acc-button",
+              "accBlock": "[acc-button]",
+              "variant": "[variant-0]"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "acc-button",
+      "fields": [
+        {
+          "component": "hidden",
+          "name": "accBlock"
+        },
+        {
+          "component": "aem-content",
+          "name": "buttonLink",
+          "label": "Link"
+        },
+        {
+          "component": "text",
+          "name": "buttonText",
+          "label": "Text"
+        },
+        {
+          "component": "select",
+          "name": "variant",
+          "label": "Variant",
+          "options": [
+            {
+              "name": "default",
+              "value": "[variant-0]"
+            },
+            {
+              "name": "orange",
+              "value": "[variant-orange]"
+            },
+            {
+              "name": "purple",
+              "value": "[variant-purple]"
+            },
+            {
+              "name": "black",
+              "value": "[variant-black]"
+            },
+            {
+              "name": "white-outline",
+              "value": "[variant-white-outline]"
+            },
+            {
+              "name": "white",
+              "value": "[variant-white]"
+            },
+            {
+              "name": "outline",
+              "value": "[variant-outline]"
+            },
+            {
+              "name": "white-outline-medium",
+              "value": "[variant-white-outline-medium]"
+            },
+            {
+              "name": "home_button",
+              "value": "[variant-home_button]"
+            },
+            {
+              "name": "orange-underline",
+              "value": "[variant-orange-underline]"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

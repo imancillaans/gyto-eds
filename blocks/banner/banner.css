@@ -1,0 +1,8 @@
+.banner {
+    background-color: gray;
+}
+
+.important .banner {
+    background-color: orange;
+    font-weight: bold;
+}

@@ -1,0 +1,7 @@
+
+
+mountpoints:
+  /:
+    url: "https://author-p47002-e1212860.adobeaemcloud.com/bin/franklin.delivery/eduardo-medina-anseris/acme-edge/main"
+    type: "markup"
+    suffix: ".html"
