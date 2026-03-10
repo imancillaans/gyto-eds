@@ -1,0 +1,6 @@
+# Configuración para conectar con AEM Cloud Service
+content:
+  protocol: "https"
+  host: "author-p47802-e1212860.adobeaemcloud.com" # Tu host de AEM
+  auth:
+    clientId: "5b7cca079cbd4d06a379282ee818709f"

@@ -1,6 +1,0 @@
-# Permission configuration
-access:
-  - users:
-      - imancillaans
-    roles:
-      - admin
