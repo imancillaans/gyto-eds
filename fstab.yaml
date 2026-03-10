@@ -2,6 +2,6 @@
 
 mountpoints:
   /:
-    url: "https://author-p47002-e1212860.adobeaemcloud.com/bin/franklin.delivery/content/gyto-eds/main"
+    url: "https://author-p47002-e1212860.adobeaemcloud.com/bin/franklin.delivery/imancillaans/gyto-eds/main"
     type: "markup"
     suffix: ".html"

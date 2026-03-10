@@ -1,10 +1,5 @@
 {
   "mappings": [
-    "/content/gyto-eds/:/",
-    "/content/gyto-eds/configuration:/.helix/config.json",
-    "/content/gyto-eds/metadata:/metadata.json"
-  ],
-  "includes": [
-    "/content/gyto-eds/"
+    "/content/gyto-eds/:/"
   ]
 }
